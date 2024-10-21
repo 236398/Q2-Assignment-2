@@ -1,0 +1,63 @@
+
+
+.navbar {
+  background-color: darkcyan; /* Dark background for navbar */
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar div {
+  
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+
+
+.navbar a {
+  color: white; /* White text color */
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+.logo {
+  color: white; /* White text color */
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-right: 20px;
+  
+}
+
+.hero {
+  background-color: white; /* Light background for hero section */
+  text-align: center;
+  padding-top: 150px;
+  height: 500px;
+  width: 100%;
+}
+
+.hero h1 {
+  color: darkcyan; /* Dark text color */
+  font-size: 2.5em;
+}
+
+.hero p {
+  color: #666; /* Gray text color */
+  font-size: 1.2em;
+}
+
+.footer {
+  background-color: darkcyan; /* Dark background for footer */
+  color: white; /* White text color */
+  text-align: center;
+  padding: 1rem;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}

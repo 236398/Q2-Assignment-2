@@ -1,0 +1,74 @@
+
+
+
+.navbar { 
+  background-color: lightblue; 
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.navbar li {
+  margin-right: 20px;
+}
+
+.navbar a {
+  color: white; 
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+.navbar a:hover {
+ color: wheat;
+}
+
+
+.hero {
+  background-color: white; /* Light background for hero section */
+  text-align: center;
+  padding-top: 150px;
+  height: 500px;
+  width: 100%;
+}
+
+.hero h1 {
+  color: darkcyan; /* Dark text color */
+  font-size: 2.5em;
+}
+
+.hero p {
+  color: #666; /* Gray text color */
+  font-size: 1.2em;
+}
+.hero button{
+margin: 20px;
+border-radius: 50px;
+background-color: rgb(46, 46, 46); /* Dark background color */
+color: white; /* White text color */
+border: none;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+height: 300px;
+width: 300px;
+
+}
+.footer {
+  margin-top: 200px;
+  background-color: darkcyan; /* Dark background for footer */
+  color: white; /* White text color */
+  text-align: center;
+  padding: 1rem;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
